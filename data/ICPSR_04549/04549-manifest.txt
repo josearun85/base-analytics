@@ -1,0 +1,155 @@
+File Manifest for ICPSR 4549
+
+Schneider, Barbara, and Linda J Waite. The 500 Family Study [1998-2000:
+United States]. ICPSR04549-v1. Ann Arbor, MI: Inter-university Consortium
+for Political and Social Research  [distributor], 2008-05-30.
+http://doi.org/10.3886/ICPSR04549.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04549-descriptioncitation.pdf       -       -         -       2016-02-22  -
+
+    04549-related_literature.txt        -       -         -       daily       -
+
+    04549-manifest.txt                  -       -         -       daily       -
+
+    04549-User_guide.pdf                -       -         -       2008-05-30  fa06d64e3c8885f95fb56ea5126ef039
+
+
+DS0001 Cortisol Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04549-0001-Codebook.pdf             -       -         -       2008-05-30  de8af6e6f3ac237772bc00ac590b9259
+
+    04549-0001-Data.dta                 -       152       476     2008-05-30  31963b457eaf73f3f8871de830f070ba
+
+    04549-0001-Data.sav                 -       152       476     2008-05-30  8d923ab0b4fc6ad86d2e7f4e08674a35
+
+    04549-0001-Data.stc                 -       152       476     2008-05-30  573e2b6f4dc849ec94a4ee21a9d4f674
+
+    04549-0001-Data.tsv                 -       152       476     2008-05-30  e2c17ce5fbb4667abe4d6cabffa3c573
+
+    04549-0001-Data.txt                 4996    152       476     2008-05-30  a5526148401ae883c186b0ffa5369cf5
+
+    04549-0001-Questionnaire.pdf        -       -         -       2008-05-30  cea22041b9e9574b67b550f113d2655b
+
+    04549-0001-Setup.dct                -       -         -       2008-05-30  83a533c93f4caa883e80af2ed9ba517a
+
+    04549-0001-Setup.do                 -       -         -       2008-05-30  204dd5e2183658d4455a51e44370948b
+
+    04549-0001-Setup.sas                -       -         -       2008-05-30  dc3431b236f97ee446652ccc486f289b
+
+    04549-0001-Setup.sps                -       -         -       2008-05-30  64e1ba34a861f8d40d0efd5b16ceb2fe
+
+    04549-0001-Supplemental_syntax.do   -       -         -       2008-05-30  9e83f433a0f4ae5b1582ede2deded06a
+
+    04549-0001-Supplemental_syntax.sas  -       -         -       2008-05-30  daa218ad006646e162b6f627e60f7413
+
+
+DS0002 Experience Sampling Method (ESM) Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04549-0002-Codebook.pdf             -       -         -       2008-05-30  37e5f18bd8513650a1a25bdc4ce12ecd
+
+    04549-0002-Data.dta                 -       44,542    86      2008-05-30  827cc34db11b98702b0a7b2280545f14
+
+    04549-0002-Data.sav                 -       44,542    86      2008-05-30  39ebee4adb13d6d36be203f48d015ea9
+
+    04549-0002-Data.stc                 -       44,542    86      2008-05-30  57f37aaffa24a1003d2b19bb44884baa
+
+    04549-0002-Data.tsv                 -       44,542    86      2008-05-30  8f5379e885b7b6d10797a07ec9b78a8f
+
+    04549-0002-Data.txt                 162     44,542    86      2008-05-30  7e767d2a485dce76c1a8024addceb243
+
+    04549-0002-Questionnaire.pdf        -       -         -       2008-05-30  dda480a2ebc230c90a2fd5e5a639f4c3
+
+    04549-0002-Setup.dct                -       -         -       2008-05-30  0e38e7c375ce066e6326fd8706d525d8
+
+    04549-0002-Setup.do                 -       -         -       2008-05-30  2318c73bebb2a7ef0504cb0e40e73640
+
+    04549-0002-Setup.sas                -       -         -       2008-05-30  e71dd5d8337d3d70418831029e0d83c4
+
+    04549-0002-Setup.sps                -       -         -       2008-05-30  a2139f5a509e4e580a0961f0124e52ca
+
+    04549-0002-Supplemental_syntax.do   -       -         -       2008-05-30  1723fd9037cb6482d3370bc52136ed1b
+
+    04549-0002-Supplemental_syntax.sas  -       -         -       2008-05-30  fa0344bea4c75c2ff39b848f219b8bbc
+
+
+DS0003 Parent Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04549-0003-Codebook.pdf             -       -         -       2008-05-30  e62fda4080596831e90b2953e88bf9c6
+
+    04549-0003-Data.dta                 -       878       645     2008-05-30  00001ebee286fa0582b1aec388057202
+
+    04549-0003-Data.sav                 -       878       645     2008-05-30  e4778b7b0d1f93fa89a5f1cae7e875a9
+
+    04549-0003-Data.stc                 -       878       645     2008-05-30  3a90b21ab96d34ed79cbb014df5c7609
+
+    04549-0003-Data.tsv                 -       878       645     2008-05-30  dfb1a834cb5f6fb88ea3fb5218ae95ae
+
+    04549-0003-Data.txt                 992     878       645     2008-05-30  87b969f3550f51a502cbc37431991a60
+
+    04549-0003-Questionnaire.pdf        -       -         -       2008-05-30  5113aa79cdf75d59a4cc9019f37608cb
+
+    04549-0003-Setup.dct                -       -         -       2008-05-30  b4f36a1187035316bc4665cda2015054
+
+    04549-0003-Setup.do                 -       -         -       2008-05-30  8447f1c2a528622603ba24d5f5bc27e0
+
+    04549-0003-Setup.sas                -       -         -       2008-05-30  b7928c74114785ba8b7b2ce496b753ad
+
+    04549-0003-Setup.sps                -       -         -       2008-05-30  661c2db394519739cff9446dc95223ed
+
+    04549-0003-Supplemental_syntax.do   -       -         -       2008-05-30  de6cf654fe8891f4dcb1665b4a36f09f
+
+    04549-0003-Supplemental_syntax.sas  -       -         -       2008-05-30  bac672813ab1675f76f5d68104da7397
+
+
+DS0004 Student Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04549-0004-Codebook.pdf             -       -         -       2008-05-30  db9e0302ae8fb2d5ce7bda6530ea0c54
+
+    04549-0004-Data.dta                 -       465       485     2008-05-30  1777d376e5b3eca7667f733708045ac8
+
+    04549-0004-Data.sav                 -       465       485     2008-05-30  2aa79e2cc53549a7f50a3049405b46f4
+
+    04549-0004-Data.stc                 -       465       485     2008-05-30  6ca60da26031d7f1d5bd4cd00efe5d23
+
+    04549-0004-Data.tsv                 -       465       485     2008-05-30  5f79bd2a8efbf44fb1c090217ec011a2
+
+    04549-0004-Data.txt                 570     465       485     2008-05-30  ef9323e599558ddcdc496ce986df5782
+
+    04549-0004-Setup.dct                -       -         -       2008-05-30  69c037528c932a61cee4b331e08e1f56
+
+    04549-0004-Setup.do                 -       -         -       2008-05-30  b7487ff20fd13bae06881200f725ddfa
+
+    04549-0004-Setup.sas                -       -         -       2008-05-30  48d06571a88425ca3582dc55defc73ca
+
+    04549-0004-Setup.sps                -       -         -       2008-05-30  4d913122754a5a145842d9065419753f
+
+    04549-0004-Supplemental_syntax.do   -       -         -       2008-05-30  85c4a628c80b238e5266f7b02b5555a4
+
+    04549-0004-Supplemental_syntax.sas  -       -         -       2008-05-30  b931a6f0c3d62a9aa2188862f28a87da
+
+
+DS0005 Qualitative Interview Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04549-0005-Documentation.pdf        -       -         -       2008-05-30  1c325df4c0bfbf06cfcf50d547da7430
+

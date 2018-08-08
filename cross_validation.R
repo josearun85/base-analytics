@@ -1,5 +1,6 @@
 library(caret)
-setwd("D://base-analytics-master/data")
+setwd("C:/Users/home/Desktop/base-analytics-master/data")
+
 house <- read.csv("house_prices.csv")
 house$Home<-NULL
 

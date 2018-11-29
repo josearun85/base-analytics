@@ -4,6 +4,18 @@ EDUCATION 1 = graduate school; 2 = university; 3 = high school; 4 = others
 MARRIAGE 1 = married; 2 = single; 3 = others	
 AGE	
 PAY_1-PAY_6	
+-2 = No outstanding bill amt
+-1 = Payment of full bill outstanding
+0 = Partial payment on time
+1 - 9 = No of months delayed 
+
+
 BILL_AMT1-BILL_AMT6	
+- Billing mount in dollars
+- 1 is most recent, 6 is months ago
+
 PAY_AMT1-PAY_AMT6	
+- Payment amount in dollars
+- 1 is most recent, 6 is 6 months ago
+
 default payment next month

@@ -1,7 +1,7 @@
 setwd("D:/Work/Classes/base-analytics-master/data/house_prices")
 
 df <- read.csv("cleaned_train.csv")
-
+# recode categories as strings if numeric values
 catvars = c()
 numvars = c()
 for(i in names(df)[names(df)!="SalePrice"]){
@@ -22,7 +22,7 @@ for(i in numvars){
   if(abs(cor(df$SalePrice,df[,i])) > .3){
     plot(df[,i],df$SalePrice,main=paste(i,cor(df$SalePrice,df[,i])))
     imp_num_vars = c(imp_num_vars,i)
-    readline(prompt="Press [enter] to continue")
+    #readline(prompt="Press [enter] to continue")
   }
 }
 
@@ -36,7 +36,7 @@ for(i in catvars){
     if(maxp - minp > 75000){
       boxplot(dff$SalePrice ~ dff[,i],main=paste(i,round(maxp - minp)))
       imp_cat_vars = c(imp_cat_vars,i)
-      readline(prompt="Press [enter] to continue")
+      #readline(prompt="Press [enter] to continue")
     }else{
       #print(i)
     }
@@ -50,6 +50,10 @@ results <- dummy_cols(df[,imp_cat_vars], remove_first_dummy = TRUE,
                       remove_selected_columns=TRUE)
 
 results$SalePrice = df$SalePrice
+results$`RoofMatl_Tar&Grv`
+
+names(results) <- make.names(names(results))
+
 
 imp_cat_vars=c()
 for(i in names(results)){
@@ -57,12 +61,16 @@ for(i in names(results)){
     means <- aggregate(as.formula(paste("SalePrice ~ ",i)),results, mean)
     maxp = max(means$SalePrice)
     minp = min(means$SalePrice)
+    #print(maxp)
+    #print(minp)
+    
     if(maxp - minp > 40000){
       boxplot(results$SalePrice ~ results[,i],main=paste(i,round(maxp - minp)))
       imp_cat_vars = c(imp_cat_vars,i)
+      #print(length(imp_cat_vars))
       #readline(prompt="Press [enter] to continue")
     }else{
-      #print(i)
+      print(i)
     }    
   }
 }

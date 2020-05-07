@@ -55,6 +55,7 @@ boxplot(df$SalePrice ~ df$NHNEW)
 library(ggplot2)
 ggplot(df) + 
   geom_point(aes(x=LotArea,y=SalePrice,color=factor(MSSubClass))) 
+
 ggplot(df) + 
   geom_point(aes(x=LotArea,y=SalePrice,color=age)) 
 hist(df$YearBuilt)

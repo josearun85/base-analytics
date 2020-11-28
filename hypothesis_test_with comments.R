@@ -83,3 +83,54 @@ t.test(df$Write, df$Read, paired=T)
 # p-value = 0.38
 # accept null hypothesis
 
+
+table(df$Gender)
+
+chisq.test(table(df$Gender),p=c(0.5,0.5))
+# null: m:f = 50:50
+# data type: 1cat, 1 exp prop
+# chisq gof
+# p - val : 0.2, > 0.05
+# Accept null
+# m:f = 50:50 (no significant different in male and female representation)
+
+
+# l:m:h = (.2, .6, .2)
+chisq.test(table(df$SEB),p=c(.25, .5, .25))
+
+# test of independence
+chisq.test(df$Gender, df$School)
+
+# null - (m:f)pub = (m:f)prv [no diff in m:f between types of schools]
+# data type - 2 c
+# chisq test of indepdence
+# p-val: 0.98
+# accept
+# no gender bias in pub and private schools
+
+
+# Is there a relationship between SEB and School?
+# null - (l:m:h)pub = (l:m:h)prv
+chisq.test(df$School,df$SEB)
+# reject
+# seb affect which school i attend
+
+# race - seb any relationship?
+# R1:R2:R3:R4 (SEB1) = R1:R2:R3:R4 (SEB2) = R1:R2:R3:R4 (SEB3)
+chisq.test(df$Race,df$SEB)
+table(df$Race,df$SEB)
+
+# race - school?
+chisq.test(df$School,df$Race)
+
+table(df$School,df$Race)
+
+# fisher test as a replacement for chi-square, if any cell has less than 5 values
+fisher.test(df$School,df$Race)
+
+
+kruskal.test(df$Science ~df$Race)
+# mean_rank_g1 != mean_rank_g2 != mean_rank_g3
+
+wilcox.test(df$Math ~ df$Gender)
+
